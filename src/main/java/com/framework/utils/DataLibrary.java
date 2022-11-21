@@ -8,12 +8,14 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class DataLibrary {
-	public static Object[][] readExcelData(String excelfileName) {
+	
+		
+	public static Object[][] readExcelData(String excelfileName,String sheetName) {
 		XSSFWorkbook wbook;
 		Object[][] data = null ;
 		try {
 			wbook = new XSSFWorkbook("./data/"+excelfileName+".xlsx");
-			XSSFSheet sheet = wbook.getSheetAt(0);
+			XSSFSheet sheet = wbook.getSheet(sheetName);
 			int rowCount = sheet.getLastRowNum();
 			int colCount = sheet.getRow(0).getLastCellNum();
 			data = new Object[rowCount][colCount];

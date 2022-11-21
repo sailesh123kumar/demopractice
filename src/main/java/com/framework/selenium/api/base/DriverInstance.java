@@ -26,7 +26,7 @@ public class DriverInstance  {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--start-maximized"); 
 			options.addArguments("--disable-notifications"); 
-			options.addArguments("--incognito");
+			//options.addArguments("--incognito");
 			remoteWebdriver.set(new ChromeDriver(options));
 			break;
 		case "firefox":
