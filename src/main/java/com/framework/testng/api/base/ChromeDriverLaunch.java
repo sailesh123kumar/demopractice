@@ -32,7 +32,7 @@ public class ChromeDriverLaunch {
 			}
 		
 		System.out.println(linklist.size());
-
+		System.out.println("Hello America remote");
 		driver.close();
 	}	
 		
