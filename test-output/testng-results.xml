@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="10" total="19" passed="4" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-21T11:23:09 IST" name="Suite" finished-at="2022-11-21T11:29:59 IST" duration-ms="409159">
+    <groups>
+    </groups>
+    <test started-at="2022-11-21T11:23:09 IST" name="Test" finished-at="2022-11-21T11:29:59 IST" duration-ms="409159">
+      <class name="com.salesforce.testcases.TC002_VerifyAppLauncher">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.salesforce.testcases.TC002_VerifyAppLauncher@659499f1]" started-at="2022-11-21T11:23:09 IST" name="setValues" finished-at="2022-11-21T11:23:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.salesforce.testcases.TC002_VerifyAppLauncher@659499f1]" started-at="2022-11-21T11:23:09 IST" name="startTestCase" finished-at="2022-11-21T11:23:09 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TC002_VerifyAppLauncher@659499f1]" started-at="2022-11-21T11:23:11 IST" name="preCondition" finished-at="2022-11-21T11:23:16 IST" duration-ms="5327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TC002_VerifyAppLauncher@659499f1]" started-at="2022-11-21T11:23:16 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:23:48 IST" duration-ms="32404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TC002_VerifyAppLauncher@659499f1]" started-at="2022-11-21T11:23:48 IST" name="postCondition" finished-at="2022-11-21T11:23:49 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.salesforce.testcases.TC002_VerifyAppLauncher -->
+      <class name="com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:23:09 IST" name="setValues" finished-at="2022-11-21T11:23:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:23:40 IST" name="startTestCase" finished-at="2022-11-21T11:23:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:23:40 IST" name="preCondition" finished-at="2022-11-21T11:23:45 IST" duration-ms="4473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method retried="true" signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:23:45 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:25:43 IST" duration-ms="118598" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[See the reporter for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: See the reporter for details.
+at com.framework.utils.Reporter.reportStep(Reporter.java:93)
+at com.framework.utils.Reporter.reportStep(Reporter.java:108)
+at com.framework.selenium.api.base.SeleniumBase.locateElement(SeleniumBase.java:610)
+at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:192)
+at com.salesforce.pages.AppLauncher.closeWindow(AppLauncher.java:30)
+at com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks.runLogin(TCOO3_VerifyAppLauncherLinks.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:25:43 IST" name="postCondition" finished-at="2022-11-21T11:25:44 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:25:44 IST" name="preCondition" finished-at="2022-11-21T11:25:46 IST" duration-ms="2252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method retried="true" signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:25:46 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:27:43 IST" duration-ms="116759" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[See the reporter for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: See the reporter for details.
+at com.framework.utils.Reporter.reportStep(Reporter.java:93)
+at com.framework.utils.Reporter.reportStep(Reporter.java:108)
+at com.framework.selenium.api.base.SeleniumBase.locateElement(SeleniumBase.java:610)
+at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:192)
+at com.salesforce.pages.AppLauncher.closeWindow(AppLauncher.java:30)
+at com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks.runLogin(TCOO3_VerifyAppLauncherLinks.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:27:43 IST" name="postCondition" finished-at="2022-11-21T11:27:59 IST" duration-ms="16329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:27:59 IST" name="preCondition" finished-at="2022-11-21T11:28:02 IST" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:28:02 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:29:58 IST" duration-ms="116631" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[See the reporter for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: See the reporter for details.
+at com.framework.utils.Reporter.reportStep(Reporter.java:93)
+at com.framework.utils.Reporter.reportStep(Reporter.java:108)
+at com.framework.selenium.api.base.SeleniumBase.locateElement(SeleniumBase.java:610)
+at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:192)
+at com.salesforce.pages.AppLauncher.closeWindow(AppLauncher.java:30)
+at com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks.runLogin(TCOO3_VerifyAppLauncherLinks.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks@51e69659]" started-at="2022-11-21T11:29:58 IST" name="postCondition" finished-at="2022-11-21T11:29:58 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.salesforce.testcases.TCOO3_VerifyAppLauncherLinks -->
+      <class name="com.salesforce.testcases.TC005_VerifyNewTask">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.salesforce.testcases.TC005_VerifyNewTask@47e2e487]" started-at="2022-11-21T11:23:09 IST" name="setValues" finished-at="2022-11-21T11:23:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.salesforce.testcases.TC005_VerifyNewTask@47e2e487]" started-at="2022-11-21T11:23:40 IST" name="startTestCase" finished-at="2022-11-21T11:23:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TC005_VerifyNewTask@47e2e487]" started-at="2022-11-21T11:23:41 IST" name="preCondition" finished-at="2022-11-21T11:24:02 IST" duration-ms="21537" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[See the reporter for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: See the reporter for details.
+at com.framework.utils.Reporter.reportStep(Reporter.java:93)
+at com.framework.utils.Reporter.reportStep(Reporter.java:108)
+at com.framework.selenium.api.base.SeleniumBase.startApp(SeleniumBase.java:578)
+at com.framework.testng.api.base.ProjectSpecificMethods.preCondition(ProjectSpecificMethods.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TC005_VerifyNewTask@47e2e487]" started-at="2022-11-21T11:24:02 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:24:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoProject]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[See the reporter for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: See the reporter for details.
+at com.framework.utils.Reporter.reportStep(Reporter.java:93)
+at com.framework.utils.Reporter.reportStep(Reporter.java:108)
+at com.framework.selenium.api.base.SeleniumBase.startApp(SeleniumBase.java:578)
+at com.framework.testng.api.base.ProjectSpecificMethods.preCondition(ProjectSpecificMethods.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TC005_VerifyNewTask@47e2e487]" started-at="2022-11-21T11:24:02 IST" name="postCondition" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1669010042578" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.salesforce.testcases.TC005_VerifyNewTask -->
+      <class name="com.salesforce.testcases.TC006_VerifyLogOut">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.salesforce.testcases.TC006_VerifyLogOut@82de64a]" started-at="2022-11-21T11:23:09 IST" name="setValues" finished-at="2022-11-21T11:23:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.salesforce.testcases.TC006_VerifyLogOut@82de64a]" started-at="2022-11-21T11:23:09 IST" name="startTestCase" finished-at="2022-11-21T11:23:09 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TC006_VerifyLogOut@82de64a]" started-at="2022-11-21T11:23:11 IST" name="preCondition" finished-at="2022-11-21T11:23:16 IST" duration-ms="5639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TC006_VerifyLogOut@82de64a]" started-at="2022-11-21T11:23:16 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:23:40 IST" duration-ms="23661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TC006_VerifyLogOut@82de64a]" started-at="2022-11-21T11:23:40 IST" name="postCondition" finished-at="2022-11-21T11:23:40 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.salesforce.testcases.TC006_VerifyLogOut -->
+      <class name="com.salesforce.testcases.TC001_VerifyLogin">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.salesforce.testcases.TC001_VerifyLogin@27462a88]" started-at="2022-11-21T11:23:09 IST" name="startReport" finished-at="2022-11-21T11:23:09 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.salesforce.testcases.TC001_VerifyLogin@27462a88]" started-at="2022-11-21T11:23:09 IST" name="setValues" finished-at="2022-11-21T11:23:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.salesforce.testcases.TC001_VerifyLogin@27462a88]" started-at="2022-11-21T11:23:09 IST" name="startTestCase" finished-at="2022-11-21T11:23:09 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TC001_VerifyLogin@27462a88]" started-at="2022-11-21T11:23:11 IST" name="preCondition" finished-at="2022-11-21T11:23:16 IST" duration-ms="5258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TC001_VerifyLogin@27462a88]" started-at="2022-11-21T11:23:16 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:23:31 IST" duration-ms="15676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TC001_VerifyLogin@27462a88]" started-at="2022-11-21T11:23:31 IST" name="postCondition" finished-at="2022-11-21T11:23:40 IST" duration-ms="8751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="endResult()[pri:0, instance:com.salesforce.testcases.TC001_VerifyLogin@27462a88]" started-at="2022-11-21T11:29:59 IST" name="endResult" finished-at="2022-11-21T11:29:59 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- com.salesforce.testcases.TC001_VerifyLogin -->
+      <class name="com.salesforce.testcases.TC004_VerifyGlobalActionPopUp">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.salesforce.testcases.TC004_VerifyGlobalActionPopUp@201a4587]" started-at="2022-11-21T11:23:09 IST" name="setValues" finished-at="2022-11-21T11:23:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.salesforce.testcases.TC004_VerifyGlobalActionPopUp@201a4587]" started-at="2022-11-21T11:23:49 IST" name="startTestCase" finished-at="2022-11-21T11:23:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TC004_VerifyGlobalActionPopUp@201a4587]" started-at="2022-11-21T11:23:49 IST" name="preCondition" finished-at="2022-11-21T11:24:00 IST" duration-ms="10573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method retried="true" signature="runLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TC004_VerifyGlobalActionPopUp@201a4587]" started-at="2022-11-21T11:24:00 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:25:38 IST" duration-ms="98230" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoProject]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Arcot]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[See the reporter for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: See the reporter for details.
+at com.framework.utils.Reporter.reportStep(Reporter.java:93)
+at com.framework.utils.Reporter.reportStep(Reporter.java:108)
+at com.framework.selenium.api.base.SeleniumBase.locateElement(SeleniumBase.java:610)
+at com.salesforce.pages.HomePage.clickonGA(HomePage.java:33)
+at com.salesforce.testcases.TC004_VerifyGlobalActionPopUp.runLogin(TC004_VerifyGlobalActionPopUp.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TC004_VerifyGlobalActionPopUp@201a4587]" started-at="2022-11-21T11:25:38 IST" name="postCondition" finished-at="2022-11-21T11:25:38 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.salesforce.testcases.TC004_VerifyGlobalActionPopUp@201a4587]" started-at="2022-11-21T11:25:38 IST" name="preCondition" finished-at="2022-11-21T11:25:41 IST" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.salesforce.testcases.TC004_VerifyGlobalActionPopUp@201a4587]" started-at="2022-11-21T11:25:41 IST" name="runLogin" data-provider="fetchData" finished-at="2022-11-21T11:26:04 IST" duration-ms="23091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari.radhakrishnan@qeagle.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testleaf$321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoProject]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Arcot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.salesforce.testcases.TC004_VerifyGlobalActionPopUp@201a4587]" started-at="2022-11-21T11:26:04 IST" name="postCondition" finished-at="2022-11-21T11:26:04 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.salesforce.testcases.TC004_VerifyGlobalActionPopUp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
