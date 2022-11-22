@@ -61,6 +61,7 @@ public abstract class Reporter extends DriverInstance {
 		parent.assignAuthor(authors);
 		parentTest.set(parent);
 		testName.set(testcaseName);
+		 
 	}
 
 	public synchronized void setNode() {
